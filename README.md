@@ -8,11 +8,6 @@ The Nexus of 6G and Blockchain for Authentication (NBA) system is a revolutionar
 - [Introduction](#introduction)
 - [Features](#features)
 - [How It Works](#how-it-works)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Performance Evaluation](#performance-evaluation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -22,34 +17,13 @@ To address the challenges posed by node capture and the lack of sensor location 
 
 ## Features
 
-- **Blockchain Security**: Utilizes a permissioned blockchain network to ensure data integrity and prevent unauthorized access.
-- **HPUFH Model**: Implements the Hybrid Physical Unclonable Function Hashing (HPUFH) model for secure data transfer between UAVs and sensors.
-- **PbSSC Algorithm**: Utilizes the Pattern-based Signal Strength Correlation (PbSSC) algorithm to detect and mitigate unexpected sensor location changes.
+- **Blockchain Security**: Utilizes a permissioned blockchain network to ensure data integrity and prevent unauthorized access. (Hyperledger Fabric)
+- **HPUFH Model**: Implements the novel Hybrid Physical Unclonable Function Hashing (HPUFH) model for secure data transfer between UAVs and sensors.
+- **PbSSC Algorithm**: Utilizes the novel Pattern-based Signal Strength Correlation (PbSSC) algorithm to detect and mitigate unexpected sensor location changes.
 - **Efficiency**: Offers a highly efficient system with linear computational costs proportional to the number of challenge-response pairs.
 - **Extensive Evaluation**: Backed by thorough security and performance evaluations to ensure reliability and robustness.
 
 ## How It Works
 
-The NBA system combines the power of 6G networks, blockchain technology, and intelligent algorithms to create a secure and reliable environment for IoT data transfer. To understand the inner workings of the NBA system, refer to the [detailed documentation](docs/overview.md).
+The NBA system combines the power of 6G networks, blockchain technology, and intelligent algorithms to create a secure and reliable environment for IoT data transfer. To understand the inner workings of the NBA system, refer to the [Visit IEEE](https://ieeexplore.ieee.org/abstract/document/9838856)
 
-## Installation
-
-To get started with the NBA system, follow the installation instructions provided in the [installation guide](docs/installation.md).
-
-## Usage
-
-Learn how to use and interact with the NBA system by exploring our [user guide](docs/usage.md).
-
-## Performance Evaluation
-
-We have conducted extensive security and performance evaluations to validate the effectiveness of the NBA system. To review the results and methodology, refer to the [performance evaluation documentation](docs/performance-evaluation.md).
-
-## Contributing
-
-We welcome contributions from the community to enhance and improve the NBA system. If you're interested in contributing, please follow our [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-The NBA system is open-source software released under the [MIT License](LICENSE).
-
----
